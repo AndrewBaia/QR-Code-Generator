@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCode | dev.andrewbaia</title>
+    <link rel="icon" href="./assets/icons/qrcode-solid.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Paste your LINK here:</h1>
+        <textarea name="textarea" id="textarea" maxlength="256" rows="4"></textarea>
+        <button onclick="generateQRCode()">Generate QRCode</button>
+        <img id="qrcode-image">
+    </div>
+    
+    <footer>
+        <p><small>Copyright 2023 | dev.andrewbaia - All Rights Reserved</small></p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/39888a0a87.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

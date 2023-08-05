@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Montserray', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/images/pexels-dana-tentis-370799.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container {
+    min-width: 380px;
+    max-width: 1050px;
+    width: 60%;
+    height: auto;
+    padding: 30px;
+    background-color: rgba(68, 85, 161, 0.8);
+    border-radius: 12px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 20px ;    
+    border: solid 1px black;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #124a2b;
+    border: solid 1px #fff;
+}
+
+textarea {
+    margin: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    color: #ffffff71;
+}
